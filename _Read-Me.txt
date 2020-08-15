@@ -1,0 +1,24 @@
+//*** Business Pro Dasboard ***//
+//** Dashboard for 2,4 & 11 category services **//
+
+10 Jul 2020 - 13 Jul 2020
+Set up with a Template
+Requierd sass files are adding
+
+Basic Layouts
+    index.html
+    login.html
+    recoverpw.html
+    profile.html
+
+14 Jul 2020 - 18 Jul 2020
+//** New Design and Layouts Updated **//
+    index.html
+    newRequests.html
+    mySeriveRequests.html
+    myFinances.html
+    ongoingServices.html
+    chat.html
+    invoice.html
+    quote.html
+    generateQuote.html

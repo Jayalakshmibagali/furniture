@@ -1,0 +1,78 @@
+.service-card {
+    position: relative;
+    &__profile {
+        display: flex;
+        align-items: end;
+        .pro-img {
+            img {
+                width: 54px;
+                height: auto;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                box-shadow: $shadow-lg;
+            }
+        }
+        p {
+            color: darken($color: $lightblue, $amount: 25);
+            line-height: 0.5;
+        }
+    }
+    &__prob {
+        padding: 0.5rem;
+        span {
+            color: $gray-700;
+            font-weight: 500;
+            i {
+                color: $corange;
+            }
+        }
+        p {
+            color: darken($color: $lightblue, $amount: 25);
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+            min-height: 80px;
+        }
+    }
+    &__app {
+        padding: 0.5rem;
+        color: $gray-700;
+        font-weight: 500;
+        span {
+            &:first-child {
+                margin-right: 1rem;
+            }
+        }
+    }
+    &__action {
+        display: flex;
+        justify-content: space-around;
+        margin: 0.5rem 0 0.75rem;
+        a {
+            padding: 0.3rem 1.4rem;
+            i {
+                margin-right: 0.5rem;
+            }
+        }
+        
+    }
+    &__cont {
+        margin-top: 1rem;
+        a {
+            display: flex;
+            align-items: center;
+            color: $gray-700;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            i {
+                margin-left: 0.25rem;
+                margin-right: 0.4rem;
+                text-align: center;
+                font-size: 1.2rem;
+
+            }
+        }
+    }
+}

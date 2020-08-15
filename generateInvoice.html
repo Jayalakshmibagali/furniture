@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Andaman Market - Business Pro Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Business Pro Dashboard" name="description" />
+        <meta content="AR Square Developement" name="author" />
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="./assets/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Plugins css -->
+        <link href="assets/plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icofont.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <!-- Top Bar Start -->
+        <div class="topbar">
+            <!-- Navbar -->
+            <nav class="navbar-custom">
+
+               <!-- LOGO -->
+               <div class="topbar-left">
+                   <a href="index.html" class="logo">
+                       <span>
+                           <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                       </span>
+                       <span class="logo-text">
+                           Furnitures
+                       </span>
+                   </a>
+               </div>
+   
+               <ul class="list-unstyled topbar-nav float-right mb-0">
+                   <li class="dropdown">
+                       <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="false" aria-expanded="false">
+                           <i class="mdi mdi-bell-outline nav-icon"></i>
+                           <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
+                       </a>
+                       <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                           <!-- item-->
+                           <h6 class="dropdown-item-text">
+                               Notifications (14)
+                           </h6>
+                           <div class="slimscroll notification-list">
+                               <!-- item-->
+                               <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                   <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
+                                   <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
+                               </a>
+                               <!-- item-->
+                               <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                   <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
+                                   <p class="notify-details">New Message received<small class="text-muted">You have 87 unread messages</small></p>
+                               </a>
+                               <!-- item-->
+                               <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                   <div class="notify-icon bg-info"><i class="mdi mdi-martini"></i></div>
+                                   <p class="notify-details">Your item is shipped<small class="text-muted">It is a long established fact that a reader will</small></p>
+                               </a>
+                               <!-- item-->
+                               <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                   <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
+                                   <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
+                               </a>
+                               <!-- item-->
+                               <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                   <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
+                                   <p class="notify-details">New Message received<small class="text-muted">You have 8 unread messages</small></p>
+                               </a>
+                           </div>
+                           <!-- All-->
+                           <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
+                               View all <i class="fi-arrow-right"></i>
+                           </a>
+                       </div>
+                   </li>
+
+                   <li class="dropdown">
+                       <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="false" aria-expanded="false">
+                           <img src="assets/images/users/user-1.jpg" alt="profile-user" class="rounded-circle" /> 
+                           <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
+                       </a>
+                       <div class="dropdown-menu dropdown-menu-right">
+                           <a class="dropdown-item" href="profile.html"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" href="login.html"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
+                       </div>
+                   </li>
+               </ul>
+   
+               <ul class="list-unstyled topbar-nav mb-0">
+                   <li>
+                       <button class="button-menu-mobile nav-link waves-effect waves-light">
+                           <i class="mdi mdi-menu nav-icon"></i>
+                       </button>
+                   </li>
+
+                   <li class="hide-phone app-search">
+                       <form role="search" class="">
+                           <input type="text" placeholder="Search..." class="form-control">
+                           <a href=""><i class="fas fa-search"></i></a>
+                       </form>
+                   </li>
+               </ul>
+           </nav>
+           <!-- end navbar-->
+       </div>
+        <!-- Top Bar End -->
+
+        <div class="page-wrapper-img">
+            <div class="page-wrapper-img-inner">
+                <div class="sidebar-user media">                    
+                    <img src="assets/images/users/user-1.jpg" alt="user" class="rounded-circle img-thumbnail mb-1">
+                    <span class="online-icon"><i class="mdi mdi-record text-warning"></i></span>
+                    <div class="media-body">
+                        <h5 class="text-light">Mr Rohan Datt </h5>
+                        <ul class="list-unstyled list-inline mb-0 mt-2">
+                            <li class="list-inline-item">
+                                <a href="profile.html" class=""><i class="mdi mdi-account text-light"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="ongoingServices.html" class=""><i class="icofont-files-stack text-light"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="login.html" class=""><i class="mdi mdi-power text-warning"></i></a>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+                <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="page-title-box">
+                            <div class="float-right align-item-center mt-2">
+                                <a href="javascript:void(0);" onclick="history.back()" class="btn btn-warning px-4 align-self-center d-print-none"><i class="icofont-bubble-left"></i> Back</a>
+                            </div>
+                            <h4 class="page-title mb-2"><i class="icofont-ui-file mr-2"></i>Generate Invoice</h4>  
+                            <div class="">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Andaman Market</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);" onclick="history.back();">Generate Invoice</a></li>
+                                    <li class="breadcrumb-item active">#AMS001</li>
+                                </ol>
+                            </div>                                      
+                        </div>
+                    </div>
+                </div>
+                <!-- end page title end breadcrumb -->
+            </div>
+        </div>
+        
+        <div class="page-wrapper">
+            <div class="page-wrapper-inner">
+                <!-- Left Sidenav -->
+                <div class="left-sidenav">
+                    <ul class="metismenu left-sidenav-menu" id="side-nav">
+                        <li>
+                            <a href="index.html"><i class="icofont-dashboard"></i><span>Dashboards</span></a>
+                        </li>
+
+                        <li>
+                            <a href="newRequests.html"><i class="icofont-files-stack"></i><span>New Requests</span><span class="badge badge-danger badge-pill float-right">6</span></a>
+                        </li>
+
+                        <li>
+                            <a href="mySeriveRequests.html"><i class="icofont-tools-bag"></i><span>My Serive Requests</span></a>
+                        </li>
+
+                        <li>
+                            <a href="myFinances.html"><i class="icofont-wallet"></i><span>My Finances</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end left-sidenav-->
+
+                <!-- Page Content-->
+                <div class="page-content">
+                    <div class="container-fluid"> 
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body invoice-head">
+                                        <div class="row">
+                                            <div class="col-md-4 align-self-center">                                                
+                                                <img src="assets/images/amslogo.png" alt="Andaman Market" class="logo-lg mr-2" height="68">                                            
+                                            </div>
+                                            <div class="col-md-8">
+                                                   
+                                                <ul class="list-inline mb-0 contact-detail float-right">                                                   
+                                                    <li class="list-inline-item">
+                                                        <div class="pl-3">
+                                                            <i class="mdi mdi-web"></i>
+                                                            <p class="text-muted mb-0">www.andamanmarket.shop</p>
+                                                            <p class="text-muted mb-0">www.pro.andamanmarket.shop</p>
+                                                        </div>                                                
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <div class="pl-3">
+                                                            <i class="mdi mdi-phone"></i>
+                                                            <p class="text-muted mb-0">+91 99 00 112211</p>
+                                                            <p class="text-muted mb-0">+91 88 99 112211</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <div class="pl-3">
+                                                            <i class="mdi mdi-map-marker"></i>
+                                                            <p class="text-muted mb-0">2821 Krishan Road,</p>
+                                                            <p class="text-muted mb-0">Digilpur, Andaman 30002 IN.</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--end card-body-->
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-8 offset-md-2">
+                                                <form class="form-material" action="">
+                                                    <div class="form-group row">
+                                                        <label for="invNum" class="col-sm-2 col-form-label text-right">Invoice Number</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="text" value="" id="invNum" />
+                                                        </div>
+                                                    </div>
+
+                                                    <hr />
+                                                    
+                                                    <div class="row mt-3 mb-3">
+                                                        <div class="col-sm-2"></div>
+                                                        <div class="col-sm-10">
+                                                            <h4 class="mt-0 header-title text-primary mb-1">Customer Details</h4>
+                                                            <small class="form-text text-muted">Your customer details and contact information for billing</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="custName" class="col-sm-2 col-form-label text-right">Customer Name</label>
+                                                        <div class="col-sm-10">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="cFirstName" />
+                                                                    <small class="form-text text-muted">First Name</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="cLastName" />
+                                                                    <small class="form-text text-muted">Last Name</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="address" class="col-sm-2 col-form-label text-right">Billing Address</label>
+                                                        <div class="col-sm-10">
+                                                            <div class="row">
+                                                                <div class="col-12 mb-3">
+                                                                    <input class="form-control" type="text" value="" id="address" />
+                                                                    <small class="form-text text-muted">Street Address</small>
+                                                                </div>
+                                                                <div class="col-12 mb-3">
+                                                                    <input class="form-control" type="text" value="" id="streetAddress" />
+                                                                    <small class="form-text text-muted">Street Address Line 2</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-3">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="city" />
+                                                                    <small class="form-text text-muted">City</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="state" />
+                                                                    <small class="form-text text-muted">State</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-3">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="zip" />
+                                                                    <small class="form-text text-muted">Postal / Zip Code</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="India" id="country" />
+                                                                    <small class="form-text text-muted">Country</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="phoneNumber" class="col-sm-2 col-form-label text-right">Phone Number</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="text" value="" id="phoneNumber" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="email" class="col-sm-2 col-form-label text-right">Email</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="email" value="" id="email" />
+                                                        </div>
+                                                    </div>
+
+                                                    <hr />
+
+                                                    <div class="row mt-3 mb-3">
+                                                        <div class="col-sm-2"></div>
+                                                        <div class="col-sm-10">
+                                                            <h4 class="mt-0 header-title text-primary mb-1">Company Details</h4>
+                                                            <small class="form-text text-muted">Your company details and contact information</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="companyName" class="col-sm-2 col-form-label text-right">Company Name</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="text" value="" id="companyName" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="address" class="col-sm-2 col-form-label text-right">Address</label>
+                                                        <div class="col-sm-10">
+                                                            <div class="row">
+                                                                <div class="col-12 mb-3">
+                                                                    <input class="form-control" type="text" value="" id="address" />
+                                                                    <small class="form-text text-muted">Street Address</small>
+                                                                </div>
+                                                                <div class="col-12 mb-3">
+                                                                    <input class="form-control" type="text" value="" id="streetAddress" />
+                                                                    <small class="form-text text-muted">Street Address Line 2</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-3">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="city" />
+                                                                    <small class="form-text text-muted">City</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="state" />
+                                                                    <small class="form-text text-muted">State</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-3">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="zip" />
+                                                                    <small class="form-text text-muted">Postal / Zip Code</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="India" id="country" />
+                                                                    <small class="form-text text-muted">Country</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="cFirstName" class="col-sm-2 col-form-label text-right">Contact Person</label>
+                                                        <div class="col-sm-10">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="cFirstName" />
+                                                                    <small class="form-text text-muted">First Name</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <input class="form-control" type="text" value="" id="cLastName" />
+                                                                    <small class="form-text text-muted">Last Name</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="designation" class="col-sm-2 col-form-label text-right">Designation</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="text" value="" id="designation" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="phoneNumber" class="col-sm-2 col-form-label text-right">Phone Number</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="text" value="" id="phoneNumber" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="email" class="col-sm-2 col-form-label text-right">Email</label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="email" value="" id="email" />
+                                                        </div>
+                                                    </div>
+
+                                                    <hr />
+
+                                                    <div class="row mb-3">
+                                                        <div class="col-sm-2"></div>
+                                                        <div class="col-sm-10">
+                                                            <h4 class="mt-0 header-title text-primary mb-1">Invoice Details</h4>
+                                                            <small class="form-text text-muted">Invoice details which you worked for the Customer.</small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="item" class="col-sm-2 col-form-label text-right">Item <span class="text-danger">*</span></label>
+                                                        <div class="col-sm-10">
+                                                            <select class="select2 mb-3 select2-multiple" id="item" style="width: 100%" multiple="multiple" data-placeholder="">
+                                                                <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                    <option value="AK">Alaska</option>
+                                                                    <option value="HI">Hawaii</option>
+                                                                </optgroup>
+                                                                <optgroup label="Pacific Time Zone">
+                                                                    <option value="CA">California</option>
+                                                                    <option value="NV">Nevada</option>
+                                                                    <option value="OR">Oregon</option>
+                                                                    <option value="WA">Washington</option>
+                                                                </optgroup>
+                                                                <optgroup label="Mountain Time Zone">
+                                                                    <option value="AZ">Arizona</option>
+                                                                    <option value="CO">Colorado</option>
+                                                                    <option value="ID">Idaho</option>
+                                                                    <option value="MT">Montana</option>
+                                                                    <option value="NE">Nebraska</option>
+                                                                    <option value="NM">New Mexico</option>
+                                                                    <option value="ND">North Dakota</option>
+                                                                    <option value="UT">Utah</option>
+                                                                    <option value="WY">Wyoming</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="meterial" class="col-sm-2 col-form-label text-right">Meterial <span class="text-danger">*</span></label>
+                                                        <div class="col-sm-10">
+                                                            <select class="select2 mb-3 select2-multiple" id="meterial" style="width: 100%" multiple="multiple" data-placeholder="">
+                                                                <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                                    <option value="AK">Alaska</option>
+                                                                    <option value="HI">Hawaii</option>
+                                                                </optgroup>
+                                                                <optgroup label="Pacific Time Zone">
+                                                                    <option value="CA">California</option>
+                                                                    <option value="NV">Nevada</option>
+                                                                    <option value="OR">Oregon</option>
+                                                                    <option value="WA">Washington</option>
+                                                                </optgroup>
+                                                                <optgroup label="Mountain Time Zone">
+                                                                    <option value="AZ">Arizona</option>
+                                                                    <option value="CO">Colorado</option>
+                                                                    <option value="ID">Idaho</option>
+                                                                    <option value="MT">Montana</option>
+                                                                    <option value="NE">Nebraska</option>
+                                                                    <option value="NM">New Mexico</option>
+                                                                    <option value="ND">North Dakota</option>
+                                                                    <option value="UT">Utah</option>
+                                                                    <option value="WY">Wyoming</option>
+                                                                </optgroup>
+                                                                <optgroup label="Central Time Zone">
+                                                                    <option value="AL">Alabama</option>
+                                                                    <option value="AR">Arkansas</option>
+                                                                    <option value="IL">Illinois</option>
+                                                                    <option value="IA">Iowa</option>
+                                                                    <option value="KS">Kansas</option>
+                                                                    <option value="KY">Kentucky</option>
+                                                                    <option value="LA">Louisiana</option>
+                                                                    <option value="MN">Minnesota</option>
+                                                                    <option value="MS">Mississippi</option>
+                                                                    <option value="MO">Missouri</option>
+                                                                    <option value="OK">Oklahoma</option>
+                                                                    <option value="SD">South Dakota</option>
+                                                                    <option value="TX">Texas</option>
+                                                                    <option value="TN">Tennessee</option>
+                                                                    <option value="WI">Wisconsin</option>
+                                                                </optgroup>
+                                                                <optgroup label="Eastern Time Zone">
+                                                                    <option value="CT">Connecticut</option>
+                                                                    <option value="DE">Delaware</option>
+                                                                    <option value="FL">Florida</option>
+                                                                    <option value="GA">Georgia</option>
+                                                                    <option value="IN">Indiana</option>
+                                                                    <option value="ME">Maine</option>
+                                                                    <option value="MD">Maryland</option>
+                                                                    <option value="MA">Massachusetts</option>
+                                                                    <option value="MI">Michigan</option>
+                                                                    <option value="NH">New Hampshire</option>
+                                                                    <option value="NJ">New Jersey</option>
+                                                                    <option value="NY">New York</option>
+                                                                    <option value="NC">North Carolina</option>
+                                                                    <option value="OH">Ohio</option>
+                                                                    <option value="PA">Pennsylvania</option>
+                                                                    <option value="RI">Rhode Island</option>
+                                                                    <option value="SC">South Carolina</option>
+                                                                    <option value="VT">Vermont</option>
+                                                                    <option value="VA">Virginia</option>
+                                                                    <option value="WV">West Virginia</option>
+                                                                </optgroup>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="quantity" class="col-sm-2 col-form-label text-right">Quantity <span class="text-danger">*</span></label>
+                                                        <div class="col-sm-10">
+                                                            <input class="form-control" type="number" value="" id="quantity" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="price" class="col-sm-2 col-form-label text-right">Price <span class="text-danger">*</span></label>
+                                                        <div class="col-sm-10">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text">₹</span>
+                                                                </div>
+                                                                <input type="text" id="example-input3-group1" name="example-input3-group1" class="form-control" placeholder="">
+                                                                <div class="input-group-append">
+                                                                    <span class="input-group-text">.00</span>
+                                                                </div>                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="address" class="col-sm-2 col-form-label text-right">GST <span class="text-danger">*</span></label>
+                                                        <div class="col-sm-10">
+                                                            <div class="row mb-3">
+                                                                <div class="col-md-6">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <span class="input-group-text">%</span>
+                                                                        </div>
+                                                                        <input type="text" id="cgst" name="example-input3-group1" class="form-control" placeholder="" />
+                                                                    </div>
+                                                                    <small class="form-text text-muted">CGST</small>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <span class="input-group-text">%</span>
+                                                                        </div>
+                                                                        <input type="text" id="sgst" name="example-input3-group1" class="form-control" placeholder="" />
+                                                                    </div>
+                                                                    <small class="form-text text-muted">SGST</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="note" class="col-sm-2 col-form-label text-right">Additional Notes</label>
+                                                        <div class="col-sm-10">
+                                                            <textarea name="" id="note" rows="3" class="form-control"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row text-right">
+                                                        <div class="col-sm-12 ml-auto">
+                                                            <a href="invoice.html" class="btn btn-primary mr-1">Generate Invoice</a>
+                                                            <a href="javascript:void(0);" onclick="history.back()" class="btn btn-danger">Cancel</a>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!-- container -->
+
+                    <footer class="footer text-center text-sm-left">
+                        &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://andamanmarket.shop/" target="_blank">Andamanmarket Shop.</a> 
+                        <span class="text-muted d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by AR<sup>2</sup> Development</span>
+                    </footer>
+                </div>
+                <!-- end page content -->
+            </div>
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/metisMenu.min.js"></script>
+        <script src="assets/js/waves.min.js"></script>
+        <script src="assets/js/jquery.slimscroll.min.js"></script>
+
+        
+        <!-- Plugin JS -->
+        <script src="assets/plugins/moment/moment.js"></script>
+        <script src="assets/plugins/select2/select2.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.js"></script>
+
+        <script>
+            $(".select2").select2({
+                width: '100%'
+            });
+        </script>
+
+    </body>
+</html>

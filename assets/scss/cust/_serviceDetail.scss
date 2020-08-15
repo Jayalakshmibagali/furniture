@@ -1,0 +1,172 @@
+.service-detail {
+    width: auto;
+    background-color: #ffffff;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    min-height: 820px;
+    margin-left: 361px;
+    margin-bottom: 20px;
+    padding: 1.25rem;
+    &__dec {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid $gray-200;
+
+        &--info {
+            display: flex;
+            >div {
+                img {
+                    width: 80px;
+                    margin-right: 1rem;
+                    box-shadow: $shadow-lg;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                }
+            }
+            .name {
+                h5 {
+                    color: $lightblue;
+                    margin-bottom: 0.25rem;
+                    margin-top: 0.25rem;
+                    &:first-child {
+                        font-size: 1rem;
+                        color: $gray-600;
+                        margin-top: 0.5rem;
+                    }
+                }
+                h6 {
+                    color: $cyellow;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+
+        &--contact {
+            span {
+                display: block;
+                color: $lightblue;
+                text-align: right;
+                margin-bottom: 0.35rem;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__content {
+        margin-top: 1rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid $gray-200;
+        h4 {
+            font-size: 1rem;
+            color: $gray-600;
+            small {
+                font-size: 0.9rem;
+                color: $gray-500;
+            }
+        }
+        p {
+            color: $gray-500;
+            text-align: justify;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        &--action {
+            a {
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+                padding: 0.25rem 1.5rem;
+                i {
+                    margin-right: 0.25rem;
+                }
+            }
+        }
+    }
+
+    &__comment {
+        position: relative;
+        width: 90%;
+        margin-top: 2rem;
+        h5 {
+            font-weight: 500;
+            color: $gray-600;
+            font-size: 14px;
+        }
+        &--block {
+            padding: 0.8rem;
+            background-color: #fff;
+            display: table-cell;
+            vertical-align: top;
+            border: 1px solid $gray-200;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.08);
+            border-radius: 10px;
+            .comment-text {
+                color: $gray-600;
+                margin-bottom: 1rem;
+            }
+
+            .bottom-comment {
+                font-weight: 500;
+                color: $gray-500;
+                font-size: 13px;
+            }
+
+            .comment-date {
+                float: left;
+            }
+        }
+    }
+}
+
+// Responsive
+@media (max-width: 568px) {
+    .service-detail {
+        margin: 0;
+        width: 100%;
+    }
+    .service-detail__comment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    .service-detail {
+        margin: 0;
+        width: 100%;
+    }
+    .service-detail__comment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-detail {
+        margin: 0;
+        width: 100%;
+    }
+    .service-detail__comment {
+        width: 100%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023.98px) {
+    .service-detail {
+        width: 100%;
+        margin-left: 0;
+    }
+    .service-detail__comment {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1680px) {
+    .service-detail {
+        width: 640px;
+        margin-left: 330px;
+    }
+}
